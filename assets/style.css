@@ -58,6 +58,8 @@ fieldset {
 .btn {
     margin-top: 3rem;
     margin-bottom: 3rem;
+    background-color: burlywood;
+    width:8rem;
 }
 
 .myCases {
@@ -75,6 +77,12 @@ fieldset {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+#soumettreFormulaire{
+    background-color: crimson;
+    font-family: fantasy;
+    width:19rem;
+    box-shadow: inset 4px black;
 }
 
 .myPage {
