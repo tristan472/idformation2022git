@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/main.js" defer></script>
+    <title>Controle 2</title>
+</head>
+<body>
+    <main>
+        <div class="myPage">
+            <div class="myCases">
+                <fieldset class = "pizza">
+                    <fieldset id = "type">
+                        <legend>Merci de choisir vos pizzas</legend>
+                        <div class="pizzaCase">
+                            <input type="checkbox"  id="marg" checked="checked"/><label for="marg">Margherita</label>
+                        </div>
+                        <div class="pizzaCase">
+                            <input type="checkbox"  id="royal"/><label for="roya">Royale</label>
+                        </div>
+                        <div class="pizzaCase">
+                            <input type="checkbox"  id="fromage"/><label for="from">Quatre fromages</label>
+                        </div>
+                        <div class="pizzaCase">
+                            <input type="checkbox"  id="calzone"/><label for="calz">Calzone</label>
+                        </div>
+                    </fieldset>
+                    
+                    <fieldset id = "taille">
+                        <legend>Grande, petite ou moyenne</legend>
+                        <div class="pizzaCase">
+                            <input type="radio" name="choisir" checked="checked"/><label for="marg">Petite</label>
+                        </div>
+                        <div class="pizzaCase">
+                            <input type="radio" name="choisir"/><label for="marg">Moyenne</label>
+                        </div>
+                        <div class="pizzaCase">
+                            <input type="radio" name="choisir"/><label for="marg">Grande</label>
+                        </div>
+                    </fieldset>
+                </fieldset>
+
+                <fieldset class = "formulaire">
+                    <div class="formCase">
+                        <label id="nom">Nom</label>
+                        <input type ="text" placeholder="votre nom" id="Anom" class="nom"/>
+                    </div>
+                    <div class="formCase">
+                        <label id="prenom">Prénom</label>
+                        <input type ="text" placeholder="votre prenom" id="Aprenom" class="prenom"/>
+                    </div>
+                    <div class="formCase">
+                        <label id="adresse">Adresse</label>
+                        <input type ="text" placeholder="votre adresse" id="Aadresse" class="adresse"/>
+                    </div>
+                </fieldset>
+
+                <fieldset class = "paiement">	
+                    <legend> Paiement par</legend>
+                    <div class="paieCaseG">
+                        <div class="paieCase">
+                            <input type = "radio" class = "paie" value = "CB" name="payer"/>CB
+                        </div>
+                        <div class="paieCase">
+                            <input type = "radio" class = "paie" value = "Amex" name="payer"/>AmEx
+                        </div>
+                        <div class="paieCase">
+                            <input type = "radio" class = "paie" value = "Cheque" name="payer"/>Chèque
+                        </div>
+                    </div>
+                    <div class="paieCase">
+                        <label id="adresse">Votre code:</label>
+                        <input type ="text" class="code"/>
+                    </div>
+                </fieldset>
+                <div class="action">
+                    <input class ="btn" type="submit" value="Soumettre" id="soumettreFormulaire"/>
+                    
+                </div>  
+            </div>
+        </div> 
+        <div class="resultat">
+            <ul>
+                <li><div id="nomRecuperer">Nom</div></li>
+                <li><div id="prenomRecuperer">Prenom</div>  </li>
+                <li><div id="adresseRecuperer">Addresse</div> </li>
+            </ul>                               
+        </div> 
+    </main>
+</body>
+</html>
