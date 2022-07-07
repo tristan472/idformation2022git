@@ -4,7 +4,7 @@
 } */
 
 fieldset {
-    background-color: #ffff00;
+    background-color: #2200ff;
     width: 45rem;
  	height: 10rem;
      
@@ -13,7 +13,7 @@ fieldset {
 .pizza {
     display: inline-flex;
     justify-content: space-between;
-    border: 3px solid purple
+    border: 3px solid rgb(0, 128, 19)
     
 }
 
@@ -21,11 +21,11 @@ fieldset {
     background-color: #eeeeee;
     width : 40%;
     height : 130px;
-    border: 3px solid purple
+    border: 3px solid rgb(0, 128, 34)
 }
 
 .formulaire {
-    border: 3px solid purple
+    border: 3px solid rgb(0, 128, 47)
 }
 
 .formCase {
@@ -51,7 +51,7 @@ fieldset {
 
 .paiement {
     display: inline-flex;
-    border: 3px solid purple
+    border: 3px solid rgb(128, 53, 0)
     
 }
 
@@ -64,7 +64,7 @@ fieldset {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    border: 3px solid purple;
+    border: 3px solid rgb(105, 128, 0);
     width: 50rem;
     padding-top: 0.5rem;
     padding-left: 0.5rem;
