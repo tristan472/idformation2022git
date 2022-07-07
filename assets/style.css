@@ -3,11 +3,18 @@
     border: 1px solid red;
 } */
 
+* {
+    font-family: 'The Nautigal', cursive;
+}
+
 fieldset {
-    background-color: #00ff55;
+    background-color: #4c0057;
     width: 45rem;
  	height: 10rem;
-     
+}
+
+body {
+    background-color: #5fa41c
 }
 
 .pizza {
